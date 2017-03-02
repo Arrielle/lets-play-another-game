@@ -17,7 +17,7 @@ function updateCardsInHand(){
 
 function updateCardCzarChooses(){
   for (var i = 0; i < czarWhiteToChoose.length; i++) {
-    $('#czarChoiceView').append('<div class = "card czarChoice" data-index= "' + czarWhiteToChoose[i].id + '">' + czarWhiteToChoose[i].text + '</div>');
+    $('#czarChoiceView').append('<div class = "czarChoice" data-index= "' + czarWhiteToChoose[i].id + '">' + czarWhiteToChoose[i].text + '</div>');
   }//ends for loop
 }
 

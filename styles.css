@@ -8,6 +8,10 @@ h1 {
   color: white;
 }
 
+#title{
+  font-size: 50px;
+}
+
 #container{
   padding: 20px;
   margin-left: 10%;
@@ -15,8 +19,7 @@ h1 {
 }
 
 #playerView{
-  /*background-color: pink;*/
-
+ margin-top: 50px;
 }
 
 #header {
@@ -36,6 +39,36 @@ h1 {
   box-shadow: 0 0 20px grey;
   padding: 40px;
   font-weight: bold;
+  font-size: 28px;
+}
+
+#czarChoiceView {
+  height: 448px;
+  width: 320px;
+  padding: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 20px grey;
+  padding: 40px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.czarChoice {
+  height: 146px;
+  width: 320px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px grey;
+  /*margin-top: auto;*/
   font-size: 28px;
 }
 
