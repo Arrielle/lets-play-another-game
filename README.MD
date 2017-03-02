@@ -1,26 +1,26 @@
-###Cards Against Humanity
+#Cards Against Humanity
 
 ##GAME MECHANICS
 ---------------
 
-#Game Start
+###Game Start
 - [ ] All players get 10 white cards.
 
-#Round Start
+###Round Start
 - [ ] Card Czar is selected.
 - [ ] Black card is drawn.
 
-#Round Mechanics for NON Czar Players
+###Round Mechanics for NON Czar Players
 - [ ] Player picks a white card to send to the Czar.
 - [ ] When a card has been selected, the card is sent to the main view and the Czar.
 - [ ] Player turn is complete and must wait until new round begins
 
-#Round Mechanics for Czar Player
+###Round Mechanics for Czar Player
 - [ ] When all white cards have been selected and sent to the czar, the czar may select one of the cards that was sent to them. //(playerArray.length - 1)
 - [ ] The chosen card has the playerID connected to it and through this, the player that sent the card gets a point.
 - [ ] New round begins.
 
-# Winning the Game
+###Winning the Game
 - [ ] Once a player has 10 points, they win!
 - [ ] New game start option
 
@@ -36,14 +36,14 @@
 
 ##STRETCH GOALS
 ---------------
-#USER ACCOUNTS/CUSTOM DECKS
+###USER ACCOUNTS/CUSTOM DECKS
 - [ ]adding your own black cards
 - [ ]adding your own white cards
 - [ ]making specific decks and naming them
 - [ ]Games won stats (day win/lose)
 
-#HOUSE RULES
+###HOUSE RULES
 - [ ] Make new game rules selectors
 
-#OTHER
+###OTHER
 - [ ]More than 4 player (up to 10?)
