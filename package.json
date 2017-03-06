@@ -1,0 +1,24 @@
+{
+  "name": "solo-project-practice",
+  "version": "1.0.0",
+  "description": "##GAME MECHANICS ---------------",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrielle/lets-play-another-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrielle/lets-play-another-game/issues"
+  },
+  "homepage": "https://github.com/Arrielle/lets-play-another-game#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pg": "^6.1.3"
+  }
+}
